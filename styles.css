@@ -1,34 +1,104 @@
 /* Elements */
 
 body {
-	background-color: white;
-	color: black;
-	font-family: sans-serif;
-	line-height: 0;
-    font-size: 1em;
-    margin: 0;
-    padding: 0;
+
+  padding: 100px;
 }
 
-.circle {
-	width: 3em;
-	height: 3em;
-	background-color: forestgreen;
-	border-radius: 50%;
-	position: absolute;
-	left: 10%;
-	top: 10%;
+.triangle-0 {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-right: 200px solid #e27d60;
+    border-top: 200px solid #85dcb0;
 }
 
-.line {
-	height: 1px;
-	width: 100%;
-	background-color: steelblue;
-	transform: rotate(-45deg);
+.triangle-1 {
+    width: 0;
+    height: 0;
+    border-right: 200px solid #e8a87c;
+    border-bottom: 200px solid #c38d9e;
+    display: inline-block;
 }
 
-.line-2 {
-	transform: rotate(5deg);
-	position: absolute;
-	top: 5em;
+
+.triangle-2 {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-right: 200px solid #41b3a3;
+    border-top: 200px solid #e27d60;
+}
+
+.triangle-3 {
+    width: 0;
+    height: 0;
+    border-right: 200px solid #eae7dc;
+    border-bottom: 200px solid #d8c3a5;
+    display: inline-block;
+
+}
+
+.triangle-4 {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    border-right: 200px solid #8e8d8a;
+    border-top: 200px solid #e98074;
+}
+
+.triangle-5 {
+    width: 0;
+    height: 0;
+    border-right: 200px solid #e85a4f;
+    border-bottom: 200px solid #ffcb9a;
+    display: inline-block;
+}
+
+.triangle-6 {
+    width: 0;
+    height: 0;
+    border-right: 200px solid #9b786f;
+    border-bottom: 200px solid #e7dfdd;
+    display: inline-block;
+}
+
+.triangle-7 {
+    width: 0;
+    height: 0;
+    border-left: 200px solid #d9b08c;
+    border-bottom: 200px solid #d1e8e2;
+    display: inline-block;
+}
+
+.triangle-8 {
+    width: 0;
+    height: 0;
+    border-right: 200px solid #ffcb9a;
+    border-bottom: 200px solid #8ee4af;
+    display: inline-block;
+}
+
+.triangle-9 {
+    width: 0;
+    height: 0;
+    border-left: 200px solid #edf5e1;
+    border-bottom: 200px solid #5cdb95;
+    display: inline-block;
+}
+
+.triangle-10 {
+    width: 0;
+    height: 0;
+    border-right: 200px solid #907163;
+    border-bottom: 200px solid #379683;
+    display: inline-block;
+}
+
+.triangle-11 {
+    width: 0;
+    height: 0;
+    border-left: 200px solid #7395ae;
+    border-bottom: 200px solid #b1a296;
+    display: inline-block;
 }
